@@ -15,11 +15,18 @@ export const Content = styled.div`
 `;
 
 export const LogoImg = styled.img`
-    width: 200px;
+    width: 100px;
+    height: 50px;
 
     @media screen and (max-width: 500px) {
-        width: 150px;
+        width: 50px;
+        height: 25px;
     }
+`;
+
+export const HTag = styled.h3`
+    font-size: var(--fontMed);
+    color: #fff;
 `;
 
 export const TMDBLogoImg = styled.img`
